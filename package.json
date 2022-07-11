@@ -1,0 +1,18 @@
+{
+  "name": "remix-monorepo",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:flaviouk/remix-monorepo.git",
+  "author": "Flávio Carvalho <hey@flavio.uk>",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier '**/*.{js,jsx,ts,tsx,json,md,mdx,css,yaml}' --write"
+  },
+  "dependencies": {
+    "@manypkg/find-root": "^1.1.0",
+    "standard-monorepo": "^0.8.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
